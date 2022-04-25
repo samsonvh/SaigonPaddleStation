@@ -1,0 +1,116 @@
+#station-image-container {
+    height: 100%;
+}
+
+#station-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #f95f22;
+    border-radius: 12px;
+}
+
+@media screen and (orientation: landscape) {
+    #section-3 {
+        padding: 2vw;
+        border-bottom: 1px solid #f95f22;
+    }
+    #section-3::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #station-section {
+        float: right;
+        margin-left: 1vw;
+        width: calc(40% - 1vw);
+    }
+    #section-3 .sub-heading {
+        margin: auto;
+        width: fit-content;
+        height: 2vw;
+        font-size: 2vw;
+    }
+    #station-bar-container {
+        position: relative;
+        height: 5vw;
+    }
+    .station {
+        display: inline-block;
+        padding: 1vh 2vh;
+        margin-left: 8px;
+        border: 1px solid #f95f22;
+        font-size: 2vh;
+        border-radius: 4px;
+    }
+    #station-infor-container {
+        height: 21.8vw;
+    }
+    /* CATALOG */
+    #section-3 .catalog-section {
+        float: left;
+        position: relative;
+        width: 60%;
+        height: 28.8vw;
+        border-radius: 12px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    #section-3 {
+        padding: 4vw 2vw;
+        border-bottom: 1px solid #f95f22;
+    }
+    #section-3 .sub-heading {
+        margin: auto;
+        width: fit-content;
+        font-size: 2.5vh;
+    }
+    #station-bar-container {
+        position: relative;
+        height: 8vh;
+    }
+    .station {
+        display: inline-block;
+        padding: 1vw 2vw;
+        margin-left: 8px;
+        border: 1px solid #f95f22;
+        font-size: 4vw;
+        border-radius: 4px;
+        color: #f95f22;
+    }
+    #station-infor-container {
+        height: 24vh;
+    }
+    /* CATALOG */
+    #section-3 .catalog-section {
+        position: relative;
+        margin-top: 12px;
+        height: 48vw;
+        border-radius: 12px;
+    }
+    #station-image-container {
+        height: 48vw;
+    }
+}
+
+#station-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: max-content;
+}
+
+.station:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #f95f22;
+    opacity: 0.8;
+}
+
+.current-station {
+    background-color: #f95f22 !important;
+    color: #fff;
+    font-weight: 600;
+}

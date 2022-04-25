@@ -1,0 +1,190 @@
+@media screen and (orientation: landscape) {
+    #top-nav {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: 10vh;
+        box-shadow: 0 0 4px 1px rgba(249, 95, 34, 0.5);
+    }
+    /* Brand */
+    #brand-section {
+        display: inline-block;
+        width: 70%;
+        height: 100%;
+    }
+    #logo-container {
+        margin-left: 1vw;
+        padding: 4px;
+        display: inline-block;
+        height: 10vh;
+        width: 10vh;
+    }
+    #logo-image {
+        height: 100%;
+    }
+    #name-container {
+        position: relative;
+        margin-left: -4px;
+        display: inline-block;
+        width: calc(100% - 10vh - 1vw);
+        height: 10vh;
+    }
+    #brand-name {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        color: #f95f22;
+        font-size: 2.5vw;
+        width: fit-content;
+    }
+    /* Function */
+    #function-section {
+        margin-left: -4px;
+        display: inline-block;
+        width: 30%;
+        height: 100%;
+    }
+    #menu-button-container {
+        display: none;
+    }
+    #menu {
+        height: 100%;
+    }
+    #language-container {
+        display: inline-block;
+        min-width: 20%;
+        max-width: 20%;
+        height: 10vh;
+    }
+    #language-select {
+        display: block;
+        margin: 3vh auto 0;
+        padding: 0 0.5vw;
+        text-align: center;
+        height: 4vh;
+        color: #f95f22;
+        font-weight: 600;
+        font-size: 1vw;
+        border: 1px solid #f95f22;
+        border-radius: 4px;
+    }
+    #hotline-container {
+        margin-left: -4px;
+        position: relative;
+        display: inline-block;
+        width: 75%;
+        height: 10vh;
+    }
+    #hotline {
+        position: absolute;
+        padding: 4px 8px;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        height: 4vh;
+        line-height: calc(4vh - 10px);
+        font-size: 2vw;
+        width: fit-content;
+        border: 1px solid #f95f22;
+        color: #f95f22;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    #top-nav {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: 10vh;
+        box-shadow: 0 0 4px 1px rgba(249, 95, 34, 0.5);
+        background-color: #fff;
+    }
+    /* Brand */
+    #brand-section {
+        display: inline-block;
+        width: calc(100% - 10vh);
+        height: 10vh;
+    }
+    #logo-container {
+        display: inline-block;
+        margin-left: 1vw;
+        padding: 4px;
+        width: 10vh;
+        height: 10vh;
+    }
+    #logo-image {
+        height: 100%;
+    }
+    #name-container {
+        position: relative;
+        display: inline-block;
+        margin-left: -4px;
+        width: calc(100% - 10vh - 1vw);
+        height: 10vh;
+    }
+    #brand-name {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-size: 2.5vh;
+        width: 90%;
+        color: #f95f22;
+    }
+    /* Function */
+    #function-section {
+        position: relative;
+        margin-left: -4px;
+        display: inline-block;
+        width: 10vh;
+        height: 10vh;
+    }
+    #function-section:hover {
+        opacity: 0.8;
+    }
+    #function-section:hover #menu {
+        display: block;
+    }
+    #menu-button-container {
+        position: relative;
+        height: 10vh;
+    }
+    .menu-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        display: block;
+        font-size: 5vh;
+        color: #f95f22;
+    }
+    #menu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        display: none;
+        padding: 12px 12px 0;
+        text-align: center;
+        box-shadow: -1px 1px 1px 1px rgba(249, 95, 34, 0.5);
+        background-color: #fff;
+    }
+    #language-select {
+        padding: 4px 8px;
+        font-size: 1.3vh;
+        width: 100%;
+        text-align: center;
+        color: #f95f22;
+        border: 1px solid #f95f22;
+        border-radius: 4px;
+    }
+    #hotline {
+        padding: 4px 12px;
+        font-size: 2vh;
+        line-height: 0.9;
+        color: #f95f22;
+    }
+}

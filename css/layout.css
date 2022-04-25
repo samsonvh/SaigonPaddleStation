@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Markazi;
+    src: url(/MarkaziText-VariableFont_wght.ttf);
+}
+
+
+/* Catalog ratio 1:2 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+html {
+    font-family: Markazi;
+}
+
+.sub-heading {
+    color: #f95f22;
+}
+
+.change-button-container {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+}
+
+.left-button-container {
+    top: 0;
+    left: 0;
+}
+
+.right-button-container {
+    top: 0;
+    right: 0;
+}
+
+@media screen and (orientation: landscape) {
+    .change-button:hover {
+        cursor: pointer;
+        padding: 1vh;
+        background-color: #fff;
+        border: 1px solid #f95f22;
+        border-radius: 50%;
+        opacity: 0.9;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .change-button:hover {
+        cursor: pointer;
+        padding: 2vw;
+        background-color: #fff;
+        border: 1px solid #f95f22;
+        border-radius: 50%;
+        opacity: 0.9;
+    }
+}

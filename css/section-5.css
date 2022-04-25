@@ -1,0 +1,35 @@
+@media screen and (orientation: landscape) {
+    #section-5 {
+        padding: 2vw;
+        border-bottom: 1px solid #f95f22;
+    }
+    #section-5 .sub-heading {
+        margin: 0 auto 2vw;
+        width: fit-content;
+        font-size: 2vw;
+    }
+    .review-container {
+        display: inline-block;
+        margin-left: 2.5%;
+        background-color: antiquewhite;
+        width: 30%;
+        height: 10vh;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    #section-5 {
+        padding: 4vw 2vw;
+        border-bottom: 1px solid #f95f22;
+    }
+    #section-5 .sub-heading {
+        margin: auto;
+        width: fit-content;
+        font-size: 2.5vh;
+    }
+    .review-container {
+        margin-top: 2vw;
+        height: 10vh;
+        background-color: antiquewhite;
+    }
+}

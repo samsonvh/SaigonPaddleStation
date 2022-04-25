@@ -1,0 +1,125 @@
+#promotion-image {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: 1px solid #f95f22;
+}
+
+@media screen and (orientation: landscape) {
+    #section-1 {
+        position: relative;
+        padding: 2vw;
+        border-bottom: 1px solid #f95f22;
+    }
+    #section-1::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #section-1 .catalog-section {
+        float: left;
+        /* 60% of 96vw */
+        width: 60%;
+        height: 28.8vw;
+        border-radius: 12px;
+    }
+    #promotion-section {
+        float: right;
+        margin-left: 1vw;
+        width: calc(40% - 1vw);
+    }
+    #section-1 .sub-heading {
+        margin: auto;
+        width: fit-content;
+        height: 3vw;
+        font-size: 2vw;
+    }
+    #infor-section {
+        position: relative;
+        height: 25.8vw;
+    }
+    .infor-container {
+        margin: auto;
+        padding: 1vw;
+        width: 80%;
+        height: 80%;
+    }
+    #section-1 .submit-button-container {
+        height: 20%;
+    }
+    #register-button {
+        padding: 1vh 2vh;
+        margin: 1vw auto;
+        display: block;
+        width: fit-content;
+        font-size: 2vw;
+        background-color: #f95f22;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+    /* #section-1 .change-button:hover {
+        padding: 1vh;
+        background-color: #fff;
+        border: 1px solid #f95f22;
+        border-radius: 50%;
+        opacity: 0.9;
+    } */
+}
+
+@media screen and (orientation: portrait) {
+    #section-1 {
+        position: relative;
+        padding: 4vw 2vw;
+        border-bottom: 1px solid #f95f22;
+    }
+    /* Promotion */
+    #promotion-section .sub-heading {
+        margin: auto;
+        width: fit-content;
+        font-size: 2.5vh;
+    }
+    #infor-section {
+        position: relative;
+        height: 28vh;
+    }
+    .infor-container {
+        margin: auto;
+        padding: 2vw;
+        width: 80%;
+        height: 80%;
+    }
+    #section-1 .submit-button-container {
+        height: 20%;
+    }
+    #register-button {
+        padding: 1vw 2vw;
+        margin: auto;
+        display: block;
+        width: fit-content;
+        font-size: 2.5vh;
+        background-color: #f95f22;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+    /* #section-1 .change-button:hover {
+        padding: 2vw;
+        background-color: #fff;
+        border: 1px solid #f95f22;
+        border-radius: 50%;
+        opacity: 0.9;
+    } */
+    /* Catalog */
+    #section-1 .catalog-section {
+        margin-top: 12px;
+        height: 48vw;
+        border-radius: 8px;
+    }
+}
+
+#register-button:hover {
+    opacity: 0.8;
+}

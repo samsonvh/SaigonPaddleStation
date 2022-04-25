@@ -1,0 +1,102 @@
+#video-container video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#group-image-container {
+    height: 100%;
+}
+
+#group-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #f95f22;
+    border-radius: 12px;
+}
+
+@media screen and (orientation: landscape) {
+    #section-2 {
+        padding: 2vw;
+        border-bottom: 1px solid #f95f22;
+    }
+    /* VIDEO */
+    #video-section {
+        display: inline-block;
+        width: 40vw;
+        height: calc(30.375vw - 4px);
+    }
+    #video-container {
+        height: 22.5vw;
+        background-color: antiquewhite;
+        border-radius: 12px;
+    }
+    #section-2 .submit-button-container {
+        position: relative;
+        height: calc(30.375vw - 22.5vw - 4px);
+    }
+    #form-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        padding: 1vh 2vh;
+        display: block;
+        width: fit-content;
+        background-color: #f95f22;
+        font-size: 2vw;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+    /* CATALOG */
+    #section-2 .catalog-section {
+        position: relative;
+        margin-left: 0.9vw;
+        display: inline-block;
+        width: calc(54vw - 4px);
+        height: calc(30.375vw - 4px);
+        border-radius: 12px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    #section-2 {
+        padding: 4vw 2vw;
+        border-bottom: 1px solid #f95f22;
+    }
+    /* VIDEO */
+    #video-section {
+        height: 70vw;
+    }
+    #video-container {
+        height: 54vw;
+        background-color: antiquewhite;
+        border-radius: 12px;
+    }
+    #section-2 .submit-button-container {
+        position: relative;
+        height: 16vw;
+    }
+    #form-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        padding: 1vh 2vh;
+        display: block;
+        width: fit-content;
+        background-color: #f95f22;
+        font-size: 2.5vh;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+    /* CATALOG */
+    #section-2 .catalog-section {
+        position: relative;
+        height: 54vw;
+        border-radius: 12px;
+    }
+}

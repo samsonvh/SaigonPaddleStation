@@ -1,0 +1,59 @@
+@media screen and (orientation: landscape) {
+    #section-4 {
+        padding: 2vw;
+        border-bottom: 1px solid #f95f22;
+    }
+    #section-4::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #tour-section {
+        float: left;
+        width: 46vw;
+    }
+    #workshop-section {
+        float: right;
+        width: 47vw;
+    }
+    #section-4 .sub-heading {
+        margin: 0 auto 2vh;
+        padding: 1vh 2vh;
+        width: fit-content;
+        border: 1px solid #f95f22;
+        border-radius: 32px;
+        font-size: 2vw;
+    }
+    #section-4 .catalog-section {
+        position: relative;
+        height: 26.71875vw;
+        background-color: antiquewhite;
+        border: 1px solid #f95f22;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    #section-4 {
+        padding: 4vw 2vw;
+        border-bottom: 1px solid #f95f22;
+    }
+    #section-4 .sub-heading {
+        margin: 0 auto 2vw;
+        padding: 1vw 2vw;
+        width: fit-content;
+        border: 1px solid #f95f22;
+        border-radius: 32px;
+        font-size: 2.5vh;
+    }
+    #tour-section {
+        margin-bottom: 4vw;
+    }
+    #section-4 .catalog-section {
+        position: relative;
+        height: 54vw;
+        background-color: antiquewhite;
+        border: 1px solid #f95f22;
+        border-radius: 8px;
+    }
+}
