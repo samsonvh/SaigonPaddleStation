@@ -17,6 +17,28 @@ html {
     font-family: Markazi;
 }
 
+#main * {
+    z-index: 1;
+}
+
+#background-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(#005ECD, #f95f22);
+    opacity: 0.5; */
+}
+
+.button-container {
+    border-radius: 50px;
+    background: linear-gradient(#f95f22, #005ECD);
+    width: fit-content;
+    margin: 1vw auto;
+}
+
 .sub-heading {
     color: #f95f22;
 }

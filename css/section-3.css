@@ -3,11 +3,14 @@
 }
 
 #station-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
     object-fit: cover;
-    height: 100%;
-    width: 100%;
-    border: 1px solid #f95f22;
-    border-radius: 12px;
+    height: 97%;
+    width: 98.5%;
+    border-radius: 4px;
 }
 
 @media screen and (orientation: landscape) {
@@ -52,7 +55,8 @@
         position: relative;
         width: 60%;
         height: 28.8vw;
-        border-radius: 12px;
+        border-radius: 4px;
+        background: linear-gradient(#005ECD, #f95f22);
     }
 }
 
@@ -87,10 +91,11 @@
         position: relative;
         margin-top: 12px;
         height: 48vw;
-        border-radius: 12px;
     }
     #station-image-container {
         height: 48vw;
+        border-radius: 4px;
+        background: linear-gradient(#005ECD, #f95f22);
     }
 }
 

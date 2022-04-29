@@ -2,7 +2,7 @@
     position: relative;
     margin-top: 10vh;
     background-color: antiquewhite;
-    height: 23vw;
+    height: 90vh;
 }
 
 .banner-change-button-container:hover {
@@ -12,7 +12,7 @@
 }
 
 #banner-image-container {
-    height: 23vw;
+    height: 90vh;
     width: 100%;
 }
 
